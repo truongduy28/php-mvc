@@ -39,7 +39,7 @@
                     value="<?php if ($data['data-category-one']) echo $data['data-category-one']['Tenloai'] ?>">
             </div>
             <div>
-                <button class="btn btn-primary btn-block">Cập nhật</button>
+                <button class="btn btn-primary btn-block">Thêm danh mục</button>
             </div>
         </form>
     </div>

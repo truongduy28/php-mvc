@@ -9,7 +9,6 @@ class Admin extends Controller
     function update($id = NULL)
     {
         $layout = $this->model("AdminPageModel");
-
         if (isset($_POST['tendanhmuc'])) {
             $name = $_POST['tendanhmuc'];
             if ($name != '') {

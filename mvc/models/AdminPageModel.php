@@ -32,6 +32,7 @@ class AdminPageModel extends DB
     {
         $sql = "UPDATE danhmucsanpham SET Tenloai = '$name' WHERE Maloai = '$id' ";
         mysqli_query($this->con, $sql);
+        echo  $sql;
     }
     function getOneCategory($id)
     {
