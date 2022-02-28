@@ -12,4 +12,8 @@ class Controller
     {
         require_once "./mvc/views/" . $view . ".php";
     }
+    public function viewFixed($view, $dataFixed = [])
+    {
+        require_once "./mvc/views/" . $view . ".php";
+    }
 }

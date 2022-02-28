@@ -5,6 +5,6 @@ class Product extends Controller
     {
         // echo "Hello - Đã xong câu 2.3.3.a.1";
         $layout = $this->model("HomePageModel");
-        $this->view('main', ['page' => 'product', 'data-one-product' => $layout->getProductByID($id), 'data' => $layout->getCategory()]);
+        $this->view('main', ['page' => 'product', 'data-one-product' => $layout->getProductByID($id),  'data-nav' => $layout->getCategory(),]);
     }
 }

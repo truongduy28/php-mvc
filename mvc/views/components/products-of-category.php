@@ -1,5 +1,5 @@
 <?php
-$targetImage = '../../source/images/';
+$targetImage = './source/images/';
 
 ?>
 
@@ -16,7 +16,7 @@ $targetImage = '../../source/images/';
                         <img class="img-fluid" src="' . $targetImage . $item['hinhanh'] . '" alt="">
                     </div>
                     <div class="product-item__parameter">
-                        <h4><a href="../../product/show/' . $item['masp'] . '">' . $item['tensp'] . '</a></h4>
+                        <h4><a href="product/show/' . $item['masp'] . '">' . $item['tensp'] . '</a></h4>
                         <p>' . number_format($item['giaban']) . 'vnđ</p>
                     </div>
                 </div>';

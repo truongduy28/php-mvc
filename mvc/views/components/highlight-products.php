@@ -10,13 +10,13 @@ $targetImage = './source/images/';
         <div class="products-box col-sm-10 row justify-content-center">
 
             <?php
-            foreach ($data['data-hightlight'] as $item) {
+            foreach ($data['data-highlight-products'] as $item) {
                 echo '<div class="products-item   col-sm-3 mx-4 mt-2 bg-white rounded">
                     <div class="product-item__img_box">
                         <img class="img-fluid" src="' . $targetImage . $item['hinhanh'] . '" alt="">
                     </div>
                     <div class="product-item__parameter">
-                        <h4><a style="color: #000" href="../../product/show/' . $item['masp'] . '">' . $item['tensp'] . '</a></h4>
+                        <h4><a style="color: #000" href="   product/show/' . $item['masp'] . '">' . $item['tensp'] . '</a></h4>
                         <p>' . number_format($item['giaban']) . 'vnđ</p>
                     </div>
                 </div>';
