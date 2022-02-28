@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  color: black;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+a:hover {
+  color: #b8b8b8;
+}
+
+body {
+  background: white;
+}
+
+.header-container img {
+  width: 200px;
+}
+/*# sourceMappingURL=style.css.map */

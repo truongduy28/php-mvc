@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    transition: all 0.5s;
+}
+
+a:hover {
+    color: rgb(184, 184, 184);
+}
+
+body {
+    background: rgb(255, 255, 255);
+}
+
+.header-container {
+    img {
+        width: 200px;
+    }
+}
